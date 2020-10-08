@@ -1,0 +1,12 @@
+Main.class
+com\example\validator\XmlValidator.class
+com\example\predicates\BalancePredicate.class
+com\example\dto\BankAccounts.class
+com\example\predicates\ClosingDatePredicate.class
+com\example\predicates\IBankAccountPredicate.class
+com\example\dto\BankAccount.class
+AccountsValidator.class
+com\example\predicates\CurrencyPredicate.class
+com\example\validator\BankAccountValidator.class
+com\example\predicates\IbanPredicate.class
+com\example\xmlparser\BankAccountsXmlParser.class

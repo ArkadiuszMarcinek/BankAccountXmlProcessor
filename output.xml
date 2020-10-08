@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<accounts>
+    <account iban="PL33114020040000310246414252">
+        <name>name8</name>
+        <currency>PLN</currency>
+        <balance>1150.00</balance>
+        <closingDate>2025-01-01</closingDate>
+    </account>
+</accounts>
