@@ -45,5 +45,14 @@ public class BankAccount {
                 .orElse(LocalDate.MIN);
     }
 
+    private boolean isValidData(String data) {
+        try {
+            DATE_TIME_FORMATTER.parse(data);
+            return true;
+        } catch (Exception ex) {
+            return false;
+        }
+    }
+
 
 }

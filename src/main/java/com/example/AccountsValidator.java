@@ -1,3 +1,5 @@
+package com.example;
+
 import com.example.dto.BankAccount;
 import com.example.dto.BankAccounts;
 import com.example.validator.BankAccountValidator;

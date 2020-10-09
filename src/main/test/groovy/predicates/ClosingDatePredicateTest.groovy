@@ -21,6 +21,7 @@ class ClosingDatePredicateTest extends Specification {
         where:
         closingDate  | expected
         null         | false
+        ""           | false
         "2010-01-01" | false
         "2029-10-11" | true
 
