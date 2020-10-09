@@ -1,8 +1,7 @@
-package com.example;
+package com.example.validators;
 
 import com.example.dto.BankAccount;
 import com.example.dto.BankAccounts;
-import com.example.validator.BankAccountValidator;
 
 import java.util.Comparator;
 import java.util.stream.Collectors;

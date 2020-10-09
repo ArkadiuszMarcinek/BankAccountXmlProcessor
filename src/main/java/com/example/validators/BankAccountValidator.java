@@ -1,4 +1,4 @@
-package com.example.validator;
+package com.example.validators;
 
 import com.example.dto.BankAccount;
 import com.example.predicates.BalancePredicate;
