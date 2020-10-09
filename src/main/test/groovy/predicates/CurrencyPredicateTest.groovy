@@ -21,6 +21,7 @@ class CurrencyPredicateTest extends Specification {
         where:
         currency | expected
         null     | false
+        1|false
         "pln"    | false
         "USD"    | false
         "PLN"    | true

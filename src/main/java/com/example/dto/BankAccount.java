@@ -24,6 +24,7 @@ public class BankAccount {
 
 
     @XmlAttribute(name = "iban")
+    @Getter
     private String iban;
     @XmlElement
     @Getter
@@ -44,8 +45,5 @@ public class BankAccount {
                 .orElse(LocalDate.MIN);
     }
 
-    public String getIban() {
-        return this.iban;
-    }
 
 }
