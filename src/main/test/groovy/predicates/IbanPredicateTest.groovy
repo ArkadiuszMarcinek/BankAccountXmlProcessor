@@ -22,7 +22,6 @@ class IbanPredicateTest extends Specification {
         iban                                  | expected
         null                                  | false
         ""                                    | false
-        BankAccountsForTest.bankAccount1.iban | false
         "PL33114020040000310246414252"        | true
     }
 

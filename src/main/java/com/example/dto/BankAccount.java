@@ -41,6 +41,7 @@ public class BankAccount {
 
     public LocalDate getClosingDate() {
         return Optional.ofNullable(closingDate)
+                .filter(this::isValidData)
                 .map(date -> LocalDate.parse(date, DATE_TIME_FORMATTER))
                 .orElse(LocalDate.MIN);
     }
